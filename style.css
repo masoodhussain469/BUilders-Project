@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    /* width: 90%; */
+   
+    /* color: whitesmoke; */
+}
+.nav{
+    background-color:hsl(262deg 38% 63%);;
+    padding-right: 80px;
+    color: white;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+   justify-content: flex-end;
+}
+ul li{
+    margin: 20px;
+}
+ul li:hover{
+    text-decoration: underline white;
+    color: white;
+    cursor: pointer;
+}
+.heading{
+ text-align: center;
+ margin: 20px 0;
+}
+/* .heading img{
+    width: 600px;
+    height: 300px;
+} */
+.text h2{
+    margin:20px;
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.text p{
+    margin:20px;
+    font-weight: 200;
+    color: hsl(266deg 70% 90%);
+}
+.top-image img{
+    margin: -4px 0px;
+    width: 1000px;
+    height: 550px;
+    flex-basis: 50%;
+    padding-left: 70px;
+}
+.text button{
+    width: 180px;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:hsl(181deg 69% 60%);
+    color: white;
+}
+.text button:hover{
+    text-decoration: blue underline;
+    color: blue;
+    background-color: white;
+}
+.home{
+    text-align: center;
+    padding: 20px 10px;
+}
+.btn .btn-1{
+    width: 200px;
+    height: 50px;
+    background-color:hsl(262deg 38% 63%);;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+.btn .btn-1:hover{
+    cursor: pointer;
+    text-decoration: blue underline;
+    color: black;
+    background-color:blue;
+}
+.btn .btn-2{
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    margin:0 10px;
+    border-radius: 5px;
+    border: hsl(222deg 25% 90%) solid 2px;
+/* border-color: hsl(222deg 25% 90%); */
+color: hsl(222deg 25% 90%);
+
+}
+.btn .btn-2:hover{
+    cursor: pointer;
+    background-color:rgb(153, 143, 209) ;
+    text-shadow: burlywood;
+    text-decoration: underline;
+}
+.text-1{
+    margin: 40px;
+    color: hsl(206deg 4% 69%);
+}
+.text-1 p{
+    line-height: 40px;
+    font-weight: 500;
+}
+.text-1 h2{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.mob-image{
+    margin-top: -318px;
+    text-align: center;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-left: 549px;
+}
+.main{
+    background-color: hsl(60deg 10% 96%);
+}
+.container{
+    color:  hsl(206deg 5% 70%);
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    height: 400px;
+    margin:50px 200px;
+    margin-bottom: 0rem;
+}
+.btn-3{
+    color:white;
+    width: 200px;
+    height: 50px;
+    background-color:hsl(261deg 45% 72%);
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 30px;
+}
+.btn-3:hover{
+    cursor: pointer;
+    text-decoration: dotted;
+    color: blue;
+    background-color: white;
+}
+.container .text-2{
+    margin:0 30px;
+}
+
+.container h1{
+    font-size:xx-large;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.container p{
+    line-height: 30px;
+}
+.middle{
+    position: relative;
+    text-align: center;
+    background-color:rgb(153, 143, 209);
+    padding: 50px 0;
+    color: white;
+    font-family: sans-serif;
+}
+.btn-m .btn-4{
+    width: 200px;
+    height: 50px;
+    background-color: hsl(181deg 52% 51%);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+.btn-m .btn-4:hover{
+    cursor: pointer;
+    background-color: white;
+    text-decoration: underline;
+    color: blue;
+}
+.btn-m .btn-5{
+    width: 150px;
+    height: 50px;
+    margin: 20px 10px;
+    border-radius: 5px;
+background: transparent;
+color: white;
+border-style: solid;
+border-color: white;
+}
+.btn-m .btn-5:hover{
+    cursor: pointer;
+background-color:  hsl(181deg 52% 51%);
+text-decoration: solid;
+}
+.middle h2{
+    padding: 20px 0;
+    font-weight: 500;
+}
+.middle p{
+    line-height: 30px;
+}
+.fontawsome{
+    background-color:hsl(60deg 10% 96%);
+    display: flex;
+    flex-basis: 35%;
+   font-family: sans-serif;
+}
+.para i{
+   font-size: xx-large;
+   color: hsl(260deg 38% 64%);
+}
+.para{
+    margin: 20px 30px;
+    text-align: center;
+}
+.para h2{
+    padding: 30px;
+    font-weight: 400;
+    color: hsl(206deg 5% 70%);
+}
+.para p{
+    padding: 20px 0;
+    line-height: 40px;
+    color: hsl(206deg 5% 70%);
+}
+.para a{
+    color: hsl(255deg 9% 57%);
+    text-decoration: none;
+    font-weight: 600;
+}
+/* subsection is start here */
+
+.sub-heading{
+    text-align: center;
+    padding: 80px 0px;
+}
+.sub-heading h2{
+    font-size:xx-large;
+    color: hsl(257deg 23% 58%);;
+}
+.sub-heading h4{
+    padding: 10px 0px;
+    color: hsl(257deg 23% 58%);;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 0 30px; */
+    margin: 0 250px;
+   
+}
+.free-account{
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid hsl(256deg 18% 88%);
+   border-radius: 10px;
+}
+.free-account h2{
+    background-color: hsl(260deg 38% 64%);
+   border-start-end-radius: 10px;
+   border-start-start-radius: 10px;
+    min-width: 400px;
+    color: white;
+}
+.yearly-subscription{
+    text-align: center;
+    line-height: 50px;
+}
+.line{
+    width: 300px;
+    height: 2px;
+    background-color: hsl(228deg 13% 92%);
+    margin-left: 50px;
+}
+.free-account h4{
+    color:hsl(206deg 5% 74%);
+   
+}
+.free-account h1{
+    color:hsl(177deg 60% 53%);
+    font-size: xx-large;
+}
+.free-account h5{
+ color:  hsl(0deg 0% 60%);
+}
+.free-account .free-btn{
+    margin: 30px 0px;
+    width: 300px;
+    height: 60px;
+    border: solid 2px;
+    border-radius: 2px;
+    border-color: hsl(263deg 28% 69%);
+    color:  hsl(263deg 28% 69%);
+} 
+.free-account .free-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    background-color: rgb(153, 143, 209);
+}
+/*  */
+.yearly-subscription{
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid hsl(256deg 18% 88%);
+   border-radius: 10px;
+}
+.yearly-subscription h2{
+    background-color: hsl(260deg 38% 64%);
+   border-start-end-radius: 10px;
+   border-start-start-radius: 10px;
+    min-width: 400px;
+    color: white;
+}
+.yearly-subscription h1 span{
+    color:hsl(177deg 60% 53%);
+    font-size: xx-large;
+}
+.yearly-subscription h1 {
+    color:hsl(206deg 5% 74%);
+    font-size: medium;
+}
+.yearly-subscription h5{
+ color:  hsl(0deg 0% 60%);
+}
+.yearly-subscription .free-btn{
+    margin: 30px 0px;
+    width: 300px;
+    height: 60px;
+    border: solid;
+    border-radius: 2px;
+    background-color:  hsl(260deg 36% 62%);
+    border-color: hsl(260deg 36% 62%);
+    color:  white;
+}
+.yearly-subscription .free-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+}
+.yearly-subscription h4{
+    color:hsl(206deg 5% 74%);
+}
+.joining{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 250px;
+    color: hsl(220deg 3% 83%);
+}
+/* tablet section */
+.tablet{
+    height: 600px;
+    background-image: url(ales-krivec-N-aTikX-b00-unsplash.jpg);
+}
+.tablet img{
+    width: 500px;
+    height: 700px;
+   margin:51px 400px
+}
+.single-btn{
+    background-color:hsl(261deg 36% 61%);
+    margin: 150px 0;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.take-btn button{
+background-color: hsl(181deg 55% 53%);
+width: 250px;
+height: 50px;
+border-radius: 5px;
+border: transparent;
+color: white;
+}
+.take-btn button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+}
+/* footer section */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.footer-text{
+    margin: 0 20px;
+    line-height: 40px;
+    color: hsl(228deg 5% 79%);
+}
